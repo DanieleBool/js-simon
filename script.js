@@ -48,34 +48,7 @@ text.innerHTML += random();
 
 // -----------------------------------------------------------------------------
 
-// const userNumArray = [];
-// let second = 3;
-
-
-// function myTimer() {
-//     timer.innerHTML = second;
-//     if (second == 0) {
-//         clearInterval(clock);
-//         alert('tempo scaduto!');
-//         timer.innerHTML = '';
-//         document.getElementById('numeri-random').innerHTML = '';
-
-//         for (let i = 0; i < numArray.length; i++) {
-//             const num = parseInt(prompt('inserisci i numeri uno alla volta'));
-//             userNumArray.push(num);
-
-//             if (numArray.includes(userNumArray[i]) ) {
-//                 guessedNum.push(num);
-//             }
-//         }
-//         console.log(guessedNum);
-//         console.log(userNumArray);
-//     }
-//     second--;
-// }
-
-const clock = setInterval(time, 3000);
-
+const clock = setInterval(time, 10*3000);
 function time(){
 
     t = document.getElementById('text');
